@@ -1,0 +1,7 @@
+# Importing necessary library
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+books = pd.read_csv('Data/BX-Books.csv', sep=";", error_bad_lines=False, encoding='latin-1')
+books.head(2)
